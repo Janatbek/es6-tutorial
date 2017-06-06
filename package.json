@@ -7,24 +7,23 @@
     "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
     "start": "http-server"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Janatbek/es6-tutorial.git"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Janatbek/es6-tutorial/issues"
   },
-
   "homepage": "https://github.com/Janatbek/es6-tutorial#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
     "babel-preset-es2015": "^6.24.1",
-    "http-server": "^0.10.0"
+    "http-server": "^0.10.0",
+    "webpack": "^2.6.1"
   }
 }
